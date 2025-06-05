@@ -1,7 +1,9 @@
 {
-    "python.defaultInterpreterPath": "/Users/peter/Library/Caches/pypoetry/virtualenvs/deds-project-2-uiMAqejK-py3.12/bin/python",
-    "python.analysis.extraPaths": ["/Users/peter/Library/Caches/pypoetry/virtualenvs/deds-project-2-uiMAqejK-py3.12/lib/python3.12/site-packages"],
     "python.analysis.typeCheckingMode": "basic",
     "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
 } 
