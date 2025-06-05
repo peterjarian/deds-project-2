@@ -14,7 +14,7 @@ class Player:
         self.visited_positions: Set[tuple[int, int]] = {self.position}
 
     def move(self, new_position: tuple[int, int]):
-
+        self.position = new_position
         self.visited_positions.add(new_position)
 
     def reset_position(self):
